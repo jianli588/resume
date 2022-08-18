@@ -1,0 +1,27 @@
+.navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .navbar-list{
+        z-index:-1;
+        position: fixed;
+        inset: 4rem 0 0 100%;
+        background: #EFEFEF50;
+        color:#A9A9A9;
+        transition: 0.4s ease-in-out;
+        backdrop-filter: blur(2rem);
+         
+    }
+
+    .navbar-list.show{
+        position: fixed;
+        inset: 4rem 0 0 20%;
+        height:calc(100vh - 4rem);
+    }
+
+}

@@ -1,0 +1,18 @@
+a{
+    color:inherit;
+    font-size:3rem;
+    padding: 0 1rem 0 1rem;
+}
+a:hover{
+    color: #FF3B3F;
+}
+
+.toggler{
+    display:none;
+}
+
+@media only screen and (max-width: 1050px) {
+    .toggler{
+        display:inline;
+    }
+}

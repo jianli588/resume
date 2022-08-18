@@ -1,0 +1,51 @@
+li{
+    padding-left:2rem;
+    padding-right:2rem;
+    display: inline;
+}
+
+
+/*https://www.30secondsofcode.org/css/s/hover-underline-animation*/
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+
+}
+.hover-underline-animation:hover {
+    color: #FF3B3F;
+  
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF3B3F;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  color: #FF3B3F;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.current-page{
+    color: #FF3B3F;
+    border-bottom:#FF3B3F;
+    border-width:0 0 2px 0;
+    border-style:solid;
+    backdrop-filter: blur(2rem);
+}
+
+@media only screen and (max-width: 1050px) {
+    li{
+        display: block;
+        padding:3%;
+    }
+}
