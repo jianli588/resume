@@ -10,16 +10,17 @@
     .navbar-list{
         z-index:-1;
         position: fixed;
+        transform: scaleX(0);
         inset: 4rem 0 0 100%;
         background: #EFEFEF50;
         color:#A9A9A9;
         transition: 0.4s ease-in-out;
-        backdrop-filter: blur(2rem);
+        backdrop-filter: blur(5rem);
          
     }
 
     .navbar-list.show{
-        position: fixed;
+        transform: scaleX(1);
         inset: 4rem 0 0 20%;
         height:calc(100vh - 4rem);
     }

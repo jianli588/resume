@@ -1,0 +1,40 @@
+.text-column-container{
+    width:25em;
+    padding: 10vw min(5em, 10%) 0 10vw;
+    color:#A9A9A9;
+}
+
+.typewriter-container{
+    border-radius: 3em;
+    background: #CAEBF2;
+    box-shadow:  1em 1em 4em #91a9ae,
+             -1em -1em 4em #ffffff;
+    padding:1em;
+    
+}
+
+.typewriter{
+    font-size: 1.25em;
+    display: flex;  
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+    margin-top:0px;
+}
+
+.typewriter.title{
+    font-size: 2em;
+    margin-bottom: 2px;
+    margin-top:0px;
+}
+
+.slide-from-left{
+    font-size:2em;
+    opacity:0;
+    transform: translateX(-100%);
+    transition: ease-in 0.4s;
+}
+
+.slide-from-left.appear{
+    opacity:1;
+    transform: translateX(0);
+}

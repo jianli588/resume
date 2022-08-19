@@ -10,6 +10,7 @@
     background: #EFEFEF;
     color:#A9A9A9;
     backdrop-filter: blur(2rem);
+    z-index:1;
 }
 
 /* @media only screen and (max-width: 1050px) {
