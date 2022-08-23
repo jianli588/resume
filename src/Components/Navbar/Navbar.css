@@ -1,14 +1,14 @@
 .nav{
     display:flex;
+    position: fixed;
     justify-content:space-between;
     font-size:2rem;
     width:90%;
     height:4rem;
     padding-left:5%;
     padding-right:5%;
-    position:absolute;
-    background: #EFEFEF;
-    color:#A9A9A9;
+    background: var(--grey);
+    color:var(--text);
     backdrop-filter: blur(2rem);
     z-index:1;
 }

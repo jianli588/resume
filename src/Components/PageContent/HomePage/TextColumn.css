@@ -1,12 +1,13 @@
 .text-column-container{
     width:25em;
-    padding: 10vw min(5em, 10%) 0 10vw;
-    color:#A9A9A9;
+    padding: 20% min(5em, 10%) 0 25%;
+    color:var(--text);
 }
+
 
 .typewriter-container{
     border-radius: 3em;
-    background: #CAEBF2;
+    background: var(--blue);
     box-shadow:  1em 1em 4em #91a9ae,
              -1em -1em 4em #ffffff;
     padding:1em;
@@ -37,4 +38,25 @@
 .slide-from-left.appear{
     opacity:1;
     transform: translateX(0);
+}
+
+@media only screen and (max-width: 1050px) {
+    .text-column-container{
+        padding:10% 0 0 0;
+        width:80%;
+        margin:auto;
+        
+    }
+    .typewriter{
+        font-size: 4vw;
+    }
+    
+    .typewriter.title{
+        font-size: 6.4vw;
+    }
+    
+    .slide-from-left{
+        font-size:6.4vw;
+
+    }
 }

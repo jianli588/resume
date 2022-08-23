@@ -1,6 +1,11 @@
+import './Experience.css'
+
+
 const Experience = props =>{
 
-    return <div>Experience</div>
+    return <div className="experience-container">
+        
+    </div>
 }
 
 export default Experience;

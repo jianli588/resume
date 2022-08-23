@@ -1,5 +1,4 @@
 import About from './AboutPage/About.js';
-import Contact from './ContactPage/Contact.js';
 import Experience from './ExperiencePage/Experience.js';
 import Home from './HomePage/Home.js';
 
@@ -13,9 +12,6 @@ const Page = props =>{
     }
     else if(props.pageNum === 2){
         selectedPage = [<About key={props.pageNum}></About>];
-    }
-    else if(props.pageNum === 3){
-        selectedPage = [<Contact key={props.pageNum}></Contact>];
     }
     return (<div className='page-container'>{selectedPage}</div>);
 }
