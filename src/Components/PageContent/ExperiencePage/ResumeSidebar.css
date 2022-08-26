@@ -1,0 +1,35 @@
+.sticky{
+    position:sticky;
+    top: 20%;
+}
+
+.resume-navbar-margin{
+    margin:20% 0 20% 0;
+    height:60%; 
+    width:100%
+}
+
+.resume-nav{
+    list-style-type: none;
+}
+
+.list-item{
+    display:block;
+    padding: 10% 0;
+    color: var(--text);
+    font-size:1.2em;
+    transition  : 0.5s;
+    text-decoration: none;
+}
+
+
+
+.list-item:hover, .list-item.in-view{
+    transform:scale(120%);
+}
+
+@media only screen and (max-width: 1050px){
+    .resume-navbar-margin{
+        display:none;
+    }
+}

@@ -1,0 +1,9 @@
+.work-experience-title{
+    font-size:3em;
+    color:var(--blue);
+    margin-bottom:20px;
+}
+
+.work-experience-container{
+    margin:5% 0 10% 0;
+}

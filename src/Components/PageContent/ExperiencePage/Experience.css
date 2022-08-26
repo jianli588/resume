@@ -1,5 +1,12 @@
 .experience-container{
     display:grid;
-    grid-template-columns: 10% 45% 45%;
-    margin: 5% 0;
+    grid-template-columns: 15% 85%;
+    margin: 0 5%;
+}
+
+@media only screen and (max-width: 1050px){
+
+    .experience-container{
+        display:block;
+    }
 }

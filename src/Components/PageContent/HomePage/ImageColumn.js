@@ -6,7 +6,6 @@ const ImageColumn = props =>{
     const [slideInDivClass, setSlideInDivClass] = useState("image-container");
     const resolve = () =>{
         setSlideInDivClass("image-container appear");
-        console.log("appear");
     }
     setTimeout(resolve, 3500);
 
@@ -19,7 +18,7 @@ const ImageColumn = props =>{
         <div className="image-border-three"></div>
         <div className="image-border-four"></div>
 
-        <img className="image-size" src="selifie.jpg" alt="Italian Trulli"></img>
+        <img className="image-size" src="selifie.jpg" alt="Image of John"></img>
 
     </div>);
 };

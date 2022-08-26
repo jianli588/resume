@@ -8,7 +8,6 @@ const TextColumn = props =>{
     const [slideInDivClass, setSlideInDivClass] = useState("slide-from-left");
     const resolve = () =>{
         setSlideInDivClass("slide-from-left appear");
-        console.log("appear");
     }
     setTimeout(resolve, 3000);
 

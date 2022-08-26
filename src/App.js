@@ -21,7 +21,6 @@ function App() {
     }
   };
 
-  console.log(page);
 
   return (
     <div>
