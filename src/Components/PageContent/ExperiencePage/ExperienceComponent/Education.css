@@ -1,0 +1,16 @@
+.education-container{
+    margin-top: 20%;
+    padding-top: 5%;
+    width:75%;
+}
+
+.education-title-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1050px){
+    .education-container{
+        width:100%;
+    }
+}

@@ -1,0 +1,78 @@
+.project-title{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10%;
+    
+}
+.project-footer{
+    display:flex;
+    justify-content: space-between;
+}
+
+.project-image-container{
+    border-radius: 0px;
+    background: #ffffff;
+    box-shadow:  20px 20px 93px #999999,
+             -20px -20px 93px #ffffff;
+    width:70%;
+    margin:auto;
+}
+
+.project-image-caption{
+    max-width:max-content;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.project-image{
+    width:100%;
+    height:auto;
+}
+
+.project-text{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.project-text.appear{
+    max-height:1000px;
+    overflow:auto;
+}
+
+.project-text-outline{
+    width:70%;
+    height:4px;
+    background-color: var(--red);
+}
+
+
+
+/*
+https://markodenic.com/tools/buttons-generator/
+*/
+.css-button-3d{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ef233c;
+    box-shadow: 0 5px #d90429;
+  }
+  .css-button-3d:hover {
+    box-shadow: 0 3px #d90429;
+    top: 1px;
+  }
+  .css-button-3d:active {
+    box-shadow: 0 0 #d90429;
+    top: 5px;
+  }

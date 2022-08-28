@@ -1,0 +1,11 @@
+.project-margin{
+    margin: 25% 0 0 0;
+    padding: 5% 0 0 0;
+    width:75%;
+}
+
+@media only screen and (max-width: 1050px){
+    .project-margin{
+        width:100%;
+    }
+}

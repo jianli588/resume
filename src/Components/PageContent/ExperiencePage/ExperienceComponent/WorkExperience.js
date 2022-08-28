@@ -11,7 +11,7 @@ const WorkExperience = props =>{
                     data:"Contacted and discussed with clients about what should be integrated into the new page"}
                             ];
         const workOneRelevantTech = [{key:"ColdFusion", source:"coldfusion.png"},{key:"css3", source:"css3.png"},
-                                {key:"Java", source:"java.png"},{key:"html5", source:"html5.png"}];
+                                {key:"Java", source:"java.png"},{key:"html5", source:"html5.png"}, {key:"PostgreSQL", source:"postgresql.png"}];
         
 
                           

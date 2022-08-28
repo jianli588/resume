@@ -40,7 +40,11 @@ const TextColumn = props =>{
                 </div>
                 <div className={slideInDivClass}>
                     <p>I am a student majoring in Computer Science at UTSC</p>
-                    <LinkIcon></LinkIcon>
+                    <div className="text-column-button-container">
+                        <LinkIcon></LinkIcon>
+                        <button className="css-button-sliding-to-left--blue">See My Resume</button>
+                    </div>
+                    
                 </div>
             </div>
         </div>

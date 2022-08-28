@@ -33,19 +33,7 @@
     padding-left:0.5em;
 }
 
-.job-title{
-    font-size:1.8em;
-    margin-bottom:5px;
-}
 
-.job-subtitle{
-    font-size:1.4em;
-    margin-bottom:10px;
-}
-
-.job-text{
-    margin-bottom:15px;
-}
 
 
 @media only screen and (max-width: 1050px){

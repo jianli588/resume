@@ -13,12 +13,7 @@ const ImageColumn = props =>{
 
     return(
     <div className={slideInDivClass}>
-        <div className="image-border-one"></div>
-        <div className="image-border-two"></div>
-        <div className="image-border-three"></div>
-        <div className="image-border-four"></div>
-
-        <img className="image-size" src="selifie.jpg" alt="Image of John"></img>
+        <img className="image-size" src="selfie.jpg" alt="Image of John"></img>
 
     </div>);
 };

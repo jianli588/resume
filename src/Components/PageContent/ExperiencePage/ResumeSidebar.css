@@ -5,12 +5,12 @@
 
 .resume-navbar-margin{
     margin:20% 0 20% 0;
-    height:60%; 
     width:100%
 }
 
 .resume-nav{
     list-style-type: none;
+    
 }
 
 .list-item{
@@ -33,3 +33,4 @@
         display:none;
     }
 }
+

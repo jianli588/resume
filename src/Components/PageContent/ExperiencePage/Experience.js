@@ -54,7 +54,6 @@ const Experience = props =>{
         <ResumeSidebar experienceClass={experienceClass} projectClass={projectClass} educationClass={educationClass} skillsClass={skillsClass}></ResumeSidebar>
         <div margin-top="4em">
             <div ref={workRef} id="workDiv"><WorkExperience></WorkExperience></div>
-
             <div ref={projectRef} id="projectDiv"><Projects></Projects></div>
             <div ref={educationRef} id="educationDiv"><Education></Education></div>
             <div ref={skillRef} id="skillDiv"><Skill ></Skill></div>
