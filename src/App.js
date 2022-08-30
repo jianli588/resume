@@ -22,10 +22,11 @@ function App() {
   };
 
 
+
   return (
     <div>
       <Navbar choosePage={selectPage} pageNum={page}></Navbar>
-      <Page pageNum={page}></Page>
+      <Page pageNum={page} choosePage={selectPage}></Page>
             <Contact></Contact>
       <div ref={myRef}></div>
     </div>

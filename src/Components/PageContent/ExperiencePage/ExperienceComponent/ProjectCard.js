@@ -7,7 +7,8 @@ import { useState } from "react";
 const ProjectCard = props =>{
 
     const [projectDescriptionClass, setProjectDescriptionClass] = useState("project-text");
-    let [buttonText, setButtonText] = useState("Read More");
+    const [buttonText, setButtonText] = useState("Read More");
+    const [textOutline, setTextOutline] = useState("project-text-outline");
 
     const toggleProjectText = () =>{
         setProjectDescriptionClass((prevState) => {
@@ -24,6 +25,13 @@ const ProjectCard = props =>{
             return "Read More";
         });
 
+        setTextOutline((prevState) => {
+            if (prevState === "project-text-outline"){
+                return "project-text-outline appear";
+            };
+            return "project-text-outline";
+        });
+
     }
 
 
@@ -34,7 +42,7 @@ const ProjectCard = props =>{
                 <a href={props.github} target="_blank" className="project-subtitle"><FaCode></FaCode></a>
             </div>
 
-            <div className="project-image-container">
+            <div className={"project-image-container"}>
                 <img className="project-image" src={props.image}></img>
             </div>
             <div className="project-image-caption">
@@ -42,7 +50,7 @@ const ProjectCard = props =>{
             </div>
 
             <div className={projectDescriptionClass}>
-                <div className="project-text-outline"></div>
+                <div className={textOutline}></div>
                 <div className="experience-text">{props.descriptionOne}</div>
                 <div className="experience-text">{props.descriptionTwo}</div>
                 <div className="experience-text">{props.descriptionThree}</div>

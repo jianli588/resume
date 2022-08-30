@@ -7,7 +7,6 @@ const Menu = props =>{
     const MenuObject = [
         {title: 'Home', index:0},
         {title: 'Resume', index:1},
-        {title: 'About Me', index:2},
         {title: 'Contact', index:3}
     ];
 

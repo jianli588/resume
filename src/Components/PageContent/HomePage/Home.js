@@ -7,7 +7,7 @@ const Home = props =>{
     return (
     <div className="home-container">
         
-        <TextColumn></TextColumn>
+        <TextColumn choosePage={props.choosePage}></TextColumn>
         <ImageColumn></ImageColumn>
     </div>
     );

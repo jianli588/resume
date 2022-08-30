@@ -42,9 +42,16 @@
 }
 
 .project-text-outline{
-    width:70%;
+    transform:scaleX(0);
+    width:85%;
     height:4px;
     background-color: var(--red);
+    transition: ease-in-out 0.5s;
+    transform-origin: 0% 50%;
+}
+
+.project-text-outline.appear{
+    transform:scaleX(1);
 }
 
 

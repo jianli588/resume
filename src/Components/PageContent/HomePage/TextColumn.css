@@ -43,7 +43,7 @@
 .text-column-button-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     height: 200px;
 }
 
@@ -51,6 +51,7 @@
 https://denic.hashnode.dev/css-generators
 */
 .css-button-sliding-to-left--blue {
+    margin-top:0.5rem;
     min-width: 130px;
     height: 40px;
     color: #fff;

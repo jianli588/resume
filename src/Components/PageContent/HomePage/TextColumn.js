@@ -12,7 +12,6 @@ const TextColumn = props =>{
     setTimeout(resolve, 3000);
 
 
-
     return (
 
         
@@ -42,7 +41,8 @@ const TextColumn = props =>{
                     <p>I am a student majoring in Computer Science at UTSC</p>
                     <div className="text-column-button-container">
                         <LinkIcon></LinkIcon>
-                        <button className="css-button-sliding-to-left--blue">See My Resume</button>
+                        <button className="css-button-sliding-to-left--blue" onClick={() =>props.choosePage(1)}>See My Resume</button>
+
                     </div>
                     
                 </div>

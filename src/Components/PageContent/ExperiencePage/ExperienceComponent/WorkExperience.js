@@ -17,7 +17,6 @@ const WorkExperience = props =>{
                           
     return (
         <div className="work-experience-container">
-            <div className="work-experience-title">Experience</div>
             <WorkExperienceCard
                 jobTitle="Web Developer" 
                 location="Public Service and Procurement Canada"
