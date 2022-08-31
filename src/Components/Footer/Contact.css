@@ -52,6 +52,10 @@ iframe.map{
     width:30vw;
 }
 
+.label-email:hover{
+    color: var(--red);
+}
+
 @media only screen and (max-width: 800px){
     iframe.map{
         height:40vh;
