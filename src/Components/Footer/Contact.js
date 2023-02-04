@@ -29,8 +29,8 @@ const Contact = props =>{
                 <LinkIcon></LinkIcon>
                 <br></br>
                 <h1 className="contact-text contact-subtitle">Email</h1>
-                <div><label onClick={copySchool } className="contact-text">School: zejing.li@mail.utoronto.ca</label></div>
-                <div><label onClick={copyPersonal} className="contact-text">Personal: jianli5881@gmail.com</label></div>
+                <div><label onClick={copySchool } className="contact-text label-email">School: zejing.li@mail.utoronto.ca</label></div>
+                <div><label onClick={copyPersonal} className="contact-text label-email">Personal: jianli5881@gmail.com</label></div>
                 <br></br>
                 <h1 className="contact-text contact-subtitle">Location:</h1>
                 <div><label className="contact-text">Stouffville, ON</label></div>

@@ -14,7 +14,6 @@ const ImageColumn = props =>{
     return(
     <div className={slideInDivClass}>
         <img className="image-size" src="selfie.jpg" alt="Image of John"></img>
-
     </div>);
 };
 
