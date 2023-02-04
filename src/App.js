@@ -10,6 +10,7 @@ function App() {
   const [page, setPage] = useState(0);
 
   const myRef = useRef(null);
+  const topOfPage = useRef(null);
 
   const selectPage = pageIndex =>
   {
@@ -18,6 +19,7 @@ function App() {
     }
     else{
       setPage(pageIndex);
+      topOfPage.current.scrollIntoView();
     }
   };
 
@@ -25,9 +27,11 @@ function App() {
 
   return (
     <div>
+      <div ref={topOfPage}></div>
       <Navbar choosePage={selectPage} pageNum={page}></Navbar>
+      
       <Page pageNum={page} choosePage={selectPage}></Page>
-            <Contact></Contact>
+      <Contact></Contact>
       <div ref={myRef}></div>
     </div>
   );
